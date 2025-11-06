@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<manifest xmlns="http://www.imsglobal.org/xsd/imscp_v1p1" xmlns:lomes="http://ltsc.ieee.org/xsd/LOM" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_v1p3" xmlns:imsss="http://www.imsglobal.org/xsd/imsss" xmlns:adlseq="http://www.adlnet.org/xsd/adlseq_v1p3" xmlns:adlnav="http://www.adlnet.org/xsd/adlnav_v1p3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" identifier="ODE-19f4e5ec-0460-33d6-9fe2-9790f8d29e65" xsi:schemaLocation="http://www.imsglobal.org/xsd/imscp_v1p1 imscp_v1p1.xsd http://ltsc.ieee.org/xsd/LOM lomCustom.xsd http://www.adlnet.org/xsd/adlcp_v1p3 adlcp_v1p3.xsd http://www.imsglobal.org/xsd/imsss imsss_v1p0.xsd http://www.adlnet.org/xsd/adlseq_v1p3 adlseq_v1p3.xsd http://www.adlnet.org/xsd/adlnav_v1p3 adlnav_v1p3.xsd">
+    <metadata>
+        <grp_any/>
+        <adlcp:location>metadatos/metadato1.xml</adlcp:location>
+        <schema>ADL SCORM</schema>
+        <schemaversion>2004 3rd Edition</schemaversion>
+    </metadata>
+    <organizations default="ORG-55241fcd-e697-3f23-86b4-fde49195fc6d">
+        <organization structure="hierarchical" identifier="ORG-55241fcd-e697-3f23-86b4-fde49195fc6d">
+            <title>Jugando con los Reinos</title>
+            <item isvisible="true" identifierref="RES-eXelos_reinos65f96cbc27e09ea1824" identifier="ITEM-eXelos_reinos65f96cbc27e09ea1823">
+                <item isvisible="true" identifierref="RES-eXelos_reinos65f96cbc27e09ea1836" identifier="ITEM-eXelos_reinos65f96cbc27e09ea1835">
+                    <title>A tener en cuenta</title>
+                </item>
+                <item isvisible="true" identifierref="RES-eXelos_reinos65f96cbc27e09ea1848" identifier="ITEM-eXelos_reinos65f96cbc27e09ea1847">
+                    <item isvisible="true" identifierref="RES-eXelos_reinos65f96cbc27e09ea186a" identifier="ITEM-eXelos_reinos65f96cbc27e09ea1869">
+                        <title>1. Hacemos preguntas</title>
+                    </item>
+                    <item isvisible="true" identifierref="RES-eXelos_reinos65f96cbc27e09ea187c" identifier="ITEM-eXelos_reinos65f96cbc27e09ea187b">
+                        <title>2. Creamos un juego</title>
+                    </item>
+                    <item isvisible="true" identifierref="RES-eXelos_reinos65f96cbc27e09ea188e" identifier="ITEM-eXelos_reinos65f96cbc27e09ea188d">
+                        <title>3. Jugamos?</title>
+                    </item>
+                    <item isvisible="true" identifierref="RES-eXelos_reinos65f96cbc27e09ea18a10" identifier="ITEM-eXelos_reinos65f96cbc27e09ea18af">
+                        <title>4. Hacemos una presentación</title>
+                    </item>
+                    <item isvisible="true" identifierref="RES-eXelos_reinos65f96cbc27e09ea18b12" identifier="ITEM-eXelos_reinos65f96cbc27e09ea18b11">
+                        <title>5. Presentación conjunta</title>
+                    </item>
+                    <item isvisible="true" identifierref="RES-eXelos_reinos65f96cbc27e09ea18c14" identifier="ITEM-eXelos_reinos65f96cbc27e09ea18c13">
+                        <title>6. Actividades de repaso</title>
+                    </item>
+                    <title>Nuestro Proyecto</title>
+                </item>
+                <item isvisible="true" identifierref="RES-eXelos_reinos65f96cbc27e09ea18c16" identifier="ITEM-eXelos_reinos65f96cbc27e09ea18c15">
+                    <title>Cuestionario de Evaluación</title>
+                </item>
+                <item isvisible="true" identifierref="RES-eXelos_reinos65f96cbc27e09ea19018" identifier="ITEM-eXelos_reinos65f96cbc27e09ea19017">
+                    <title>Guía Didáctica</title>
+                </item>
+                <item isvisible="true" identifierref="RES-eXelos_reinos65f96cbc27e09ea1901a" identifier="ITEM-eXelos_reinos65f96cbc27e09ea19019">
+                    <title>Créditos</title>
+                </item>
+                <title>JUGANDO CON LOS 5 REINOS</title>
+            </item>
+        </organization>
+    </organizations>
+    <resources>
+        <resource type="webcontent" identifier="RES-eXelos_reinos65f96cbc27e09ea1824" href="index.html">
+            <file href="index.html"/>
+            <file href="exe_html5.js"/>
+            <dependency identifierref="COMMON_FILES"/>
+        </resource>
+        <resource type="webcontent" identifier="RES-eXelos_reinos65f96cbc27e09ea1836" href="a_tener_en_cuenta.html">
+            <file href="a_tener_en_cuenta.html"/>
+            <file href="exe_html5.js"/>
+            <dependency identifierref="COMMON_FILES"/>
+        </resource>
+        <resource type="webcontent" identifier="RES-eXelos_reinos65f96cbc27e09ea1848" href="nuestro_proyecto.html">
+            <file href="nuestro_proyecto.html"/>
+            <file href="exe_html5.js"/>
+            <file href="exe_lightbox.css"/>
+            <file href="exe_lightbox.js"/>
+            <file href="exe_lightbox_default_thumb.png"/>
+            <file href="exe_lightbox_loader.gif"/>
+            <file href="exe_lightbox_sprite.png"/>
+            <file href="exe_lightbox_sprite_next.png"/>
+            <file href="exe_lightbox_sprite_prev.png"/>
+            <file href="exe_lightbox_sprite_x.png"/>
+            <file href="exe_lightbox_sprite_y.png"/>
+            <dependency identifierref="COMMON_FILES"/>
+        </resource>
+        <resource type="webcontent" identifier="RES-eXelos_reinos65f96cbc27e09ea186a" href="1_hacemos_preguntas.html">
+            <file href="1_hacemos_preguntas.html"/>
+            <file href="exe_html5.js"/>
+            <dependency identifierref="COMMON_FILES"/>
+        </resource>
+        <resource type="webcontent" identifier="RES-eXelos_reinos65f96cbc27e09ea187c" href="2_creamos_un_juego.html">
+            <file href="2_creamos_un_juego.html"/>
+            <file href="exe_html5.js"/>
+            <file href="Rubrica_para_juego.pdf"/>
+            <file href="udl-character-1.gif"/>
+            <file href="udl-character-2.gif"/>
+            <file href="udl-character-3.gif"/>
+            <file href="udl-character-4.gif"/>
+            <file href="udl-content.css"/>
+            <file href="udl-content.js"/>
+            <file href="udl-icons-sm.png"/>
+            <file href="udl-icons.png"/>
+            <dependency identifierref="COMMON_FILES"/>
+        </resource>
+        <resource type="webcontent" identifier="RES-eXelos_reinos65f96cbc27e09ea188e" href="3_jugamos.html">
+            <file href="3_jugamos.html"/>
+            <file href="exe_html5.js"/>
+            <file href="Escala_de_valoracion.png"/>
+            <dependency identifierref="COMMON_FILES"/>
+        </resource>
+        <resource type="webcontent" identifier="RES-eXelos_reinos65f96cbc27e09ea18a10" href="4_hacemos_una_presentacin.html">
+            <file href="4_hacemos_una_presentacin.html"/>
+            <file href="exe_html5.js"/>
+            <file href="Rubrica_para_la_presentacion.pdf"/>
+            <dependency identifierref="COMMON_FILES"/>
+        </resource>
+        <resource type="webcontent" identifier="RES-eXelos_reinos65f96cbc27e09ea18b12" href="5_presentacin_conjunta.html">
+            <file href="5_presentacin_conjunta.html"/>
+            <file href="exe_html5.js"/>
+            <dependency identifierref="COMMON_FILES"/>
+        </resource>
+        <resource type="webcontent" identifier="RES-eXelos_reinos65f96cbc27e09ea18c14" href="6_actividades_de_repaso.html">
+            <file href="6_actividades_de_repaso.html"/>
+            <file href="exe_html5.js"/>
+            <dependency identifierref="COMMON_FILES"/>
+        </resource>
+        <resource type="webcontent" identifier="RES-eXelos_reinos65f96cbc27e09ea18c16" href="cuestionario_de_evaluacin.html">
+            <file href="cuestionario_de_evaluacin.html"/>
+            <file href="exe_html5.js"/>
+            <file href="common.js"/>
+            <dependency identifierref="COMMON_FILES"/>
+        </resource>
+        <resource type="webcontent" identifier="RES-eXelos_reinos65f96cbc27e09ea19018" href="gua_didctica.html">
+            <file href="gua_didctica.html"/>
+            <file href="exe_html5.js"/>
+            <file href="Guia_didactica.pdf"/>
+            <dependency identifierref="COMMON_FILES"/>
+        </resource>
+        <resource type="webcontent" identifier="RES-eXelos_reinos65f96cbc27e09ea1901a" href="crditos.html">
+            <file href="crditos.html"/>
+            <file href="exe_html5.js"/>
+            <file href="Jugando_con_los_reinos.elp"/>
+            <file href="download-package-licenses.png"/>
+            <file href="download-package.css"/>
+            <dependency identifierref="COMMON_FILES"/>
+        </resource>
+        <resource type="webcontent" identifier="COMMON_FILES">
+            <file href="Atkinson-Hyperlegible-Regular-102a.woff2"/>
+            <file href="config.xml"/>
+            <file href="content.css"/>
+            <file href="icon_emociones.svg"/>
+            <file href="icon_udl_eng_aprenderaprender.svg"/>
+            <file href="icon_udl_eng_culturales.svg"/>
+            <file href="icon_udl_eng_curiosidad.svg"/>
+            <file href="icon_udl_eng_descarga.svg"/>
+            <file href="icon_udl_eng_objetivos.svg"/>
+            <file href="icon_udl_eng_orientaciones.svg"/>
+            <file href="icon_udl_eng_reto.svg"/>
+            <file href="icon_udl_eng_rss.svg"/>
+            <file href="icon_udl_eng_rubrica.svg"/>
+            <file href="icon_udl_eng_saber.svg"/>
+            <file href="icon_udl_eng_temporalizacion.svg"/>
+            <file href="icon_udl_exp_actividad.svg"/>
+            <file href="icon_udl_exp_canto.svg"/>
+            <file href="icon_udl_exp_competenciadigital.svg"/>
+            <file href="icon_udl_exp_coproduccionoral.svg"/>
+            <file href="icon_udl_exp_coproducciontxt.svg"/>
+            <file href="icon_udl_exp_cuestionario.svg"/>
+            <file href="icon_udl_exp_debate.svg"/>
+            <file href="icon_udl_exp_ejercicio.svg"/>
+            <file href="icon_udl_exp_escribe.svg"/>
+            <file href="icon_udl_exp_escucha.svg"/>
+            <file href="icon_udl_exp_graba.svg"/>
+            <file href="icon_udl_exp_grupoheterogeneo.svg"/>
+            <file href="icon_udl_exp_grupohomogeneo.svg"/>
+            <file href="icon_udl_exp_habla.svg"/>
+            <file href="icon_udl_exp_interactivo.svg"/>
+            <file href="icon_udl_exp_juego.svg"/>
+            <file href="icon_udl_exp_lee.svg"/>
+            <file href="icon_udl_exp_lenguasignos.svg"/>
+            <file href="icon_udl_exp_manipula.svg"/>
+            <file href="icon_udl_exp_mediacion.svg"/>
+            <file href="icon_udl_exp_musica.svg"/>
+            <file href="icon_udl_exp_practicamusical.svg"/>
+            <file href="icon_udl_exp_tarea.svg"/>
+            <file href="icon_udl_exp_tareagrupal.svg"/>
+            <file href="icon_udl_rep_adjunto.svg"/>
+            <file href="icon_udl_rep_apoyovisual.svg"/>
+            <file href="icon_udl_rep_caso.svg"/>
+            <file href="icon_udl_rep_conocer.svg"/>
+            <file href="icon_udl_rep_destacado.svg"/>
+            <file href="icon_udl_rep_ejemplo.svg"/>
+            <file href="icon_udl_rep_escucha.svg"/>
+            <file href="icon_udl_rep_fonetica.svg"/>
+            <file href="icon_udl_rep_galeria.svg"/>
+            <file href="icon_udl_rep_gramatica.svg"/>
+            <file href="icon_udl_rep_importante.svg"/>
+            <file href="icon_udl_rep_informarse.svg"/>
+            <file href="icon_udl_rep_lecturafacil.svg"/>
+            <file href="icon_udl_rep_lee.svg"/>
+            <file href="icon_udl_rep_lenguasignos.svg"/>
+            <file href="icon_udl_rep_mediar.svg"/>
+            <file href="icon_udl_rep_nota.svg"/>
+            <file href="icon_udl_rep_pasos.svg"/>
+            <file href="icon_udl_rep_recomienda.svg"/>
+            <file href="icon_udl_rep_redessemanticas.svg"/>
+            <file href="icon_udl_rep_reflexion.svg"/>
+            <file href="icon_udl_rep_reproduccion.svg"/>
+            <file href="icon_udl_rep_vocabulario.svg"/>
+            <file href="nav.css"/>
+            <file href="_style_bg.png"/>
+            <file href="_style_icons.png"/>
+            <file href="_style_js.js"/>
+            <file href="_style_left_column.gif"/>
+            <file href="_style_licenses.gif"/>
+            <file href="_style_logo.png"/>
+            <file href="_style_menu.gif"/>
+            <file href="_style_nav_icons.png"/>
+            <file href="base.css"/>
+            <file href="popup_bg.gif"/>
+            <file href="exe_powered_logo.png"/>
+            <file href="SCORM_API_wrapper.js"/>
+            <file href="SCOFunctions.js"/>
+            <file href="common.js"/>
+            <file href="common_i18n.js"/>
+            <file href="exe_jquery.js"/>
+            <file href="content.xsd"/>
+            <file href="content.data"/>
+            <file href="contentv3.xml"/>
+            <file href="imslrm.xml"/>
+        </resource>
+    </resources>
+</manifest>
